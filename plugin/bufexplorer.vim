@@ -432,7 +432,7 @@ function! s:BEMapKeys()
     nnoremap <buffer> <silent> <tab> :call <SID>BESelectBuffer("tab")<cr>
   endif
 
-  nnoremap <buffer> <silent> <F1>          :call <SID>BEToggleHelp()<cr>
+  nnoremap <buffer> <silent> <F1>          :call <SID>BEClose("quit")<cr>
   nnoremap <buffer> <silent> <2-leftmouse> :call <SID>BESelectBuffer()<cr>
   nnoremap <buffer> <silent> <cr>          :call <SID>BESelectBuffer()<cr>
   nnoremap <buffer> <silent> o             :call <SID>BESelectBuffer()<cr>
